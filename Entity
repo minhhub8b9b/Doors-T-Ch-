@@ -5,11 +5,11 @@ local Creator = loadstring(game:HttpGet("https://raw.githubusercontent.com/MuhXd
 local entity = Creator.createEntity({
     CustomName = "Smiler",
     Model = "https://github.com/PABMAXICHAC/doors-monsters-models/blob/main/Smiler.rbxm?raw=true",
-    Speed = 500,
+    Speed = 200,
     DelayTime = 6,
     HeightOffset = 1,
     CanKill = true,
-    KillRange = 50,
+    KillRange = 30,
     BreakLights = true,
     BackwardsMovement = false,
     FlickerLights = {
