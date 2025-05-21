@@ -1,9 +1,9 @@
-require(game.Players.LocalPlayer.PlayerGui.MainUI.Initiator.Main_Game).caption("Doors Mode Test", true)
+require(game.Players.LocalPlayer.PlayerGui.MainUI.Initiator.Main_Game).caption("Doors Nhà Làm", true)
 
 -- Smiler
 coroutine.wrap(function()
     while true do
-        wait(50)
+        wait(100)
         game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
         wait(0)
 loadstring(game:HttpGet("https://raw.githubusercontent.com/minhhub8b9b/Doors-T-Ch-/refs/heads/main/Smiler"))()
@@ -15,7 +15,7 @@ end)()
 -- Depth
 coroutine.wrap(function()
     while true do
-        wait(30)
+        wait(50)
         game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
         wait(0)
 loadstring(game:HttpGet("https://raw.githubusercontent.com/minhhub8b9b/Doors-T-Ch-/refs/heads/main/Depth"))()
