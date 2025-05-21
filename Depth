@@ -3,8 +3,8 @@ local Creator = loadstring(game:HttpGet("https://raw.githubusercontent.com/MuhXd
 
 local entity = Creator.createEntity({
     CustomName = "Depth",
-    Model = "https://github.com/PABMAXICHAC/doors-monsters-models/blob/main/Smiler.rbxm?raw=true",
-    Speed = 300,
+    Model = "https://github.com/Johnny39871/storage/blob/main/depth.rbxm?raw=true",
+    Speed = 500,
     DelayTime = 5,
     HeightOffset = 1,
     CanKill = true,
