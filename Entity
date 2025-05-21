@@ -4,8 +4,8 @@ local Creator = loadstring(game:HttpGet("https://raw.githubusercontent.com/MuhXd
 local entity = Creator.createEntity({
     CustomName = "Smiler",
     Model = "https://github.com/PABMAXICHAC/doors-monsters-models/blob/main/Smiler.rbxm?raw=true",
-    Speed = 200,
-    DelayTime = 6,
+    Speed = 700,
+    DelayTime = 7,
     HeightOffset = 1,
     CanKill = true,
     KillRange = 30,
@@ -18,7 +18,7 @@ local entity = Creator.createEntity({
     Cycles = {
         Min = 2,
         Max = 2,
-        WaitTime = 1,
+        WaitTime = 0.001,
     },
     -- Đã xóa CamShake
 })
